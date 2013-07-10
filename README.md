@@ -17,20 +17,20 @@ Hi,亲,很高兴接下来由你来参与淘宝旅行活动页面的开发，开�
  	b. 模块：
  	
  		1. 模块分为头和主体两个部分，推荐的模块结构代码
- 	
- 			```
- 	<div class="actmod-name">
- 		<div class="actmod-hd"><!--模块头-->
- 			<h2>模块标题</h2>
- 			<span class="more"><a href="#">查看更多商品</a></span>
- 		</div>
- 		<div class="actmod-bd"><!--模块内容-->
- 		    这里是模块的主体内容
- 		</div>
- 	</div>
- 			```
  	 	2. 模块约定标题必须为活字，禁止将文案切入背景图。
  	 	3. 模块的内容区域禁止设置高度，高度由模块内容决定。
+ 	
+```
+		<div class="actmod-name">
+			<div class="actmod-hd"><!--模块头-->
+				<h2>模块标题</h2>
+				<span class="more"><a href="#">查看更多商品</a></span>
+			</div>
+			<div class="actmod-bd"><!--模块内容-->
+				这里是模块的主体内容
+			</div>
+		</div>
+```
  	 	
 
 #### 二. TMS代码阶段
